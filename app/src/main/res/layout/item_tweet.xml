@@ -35,7 +35,9 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        tools:text="Input Tweet Here" />
+        tools:text="Input Tweet Here"
+        android:autoLink="all"
+        android:linksClickable="true"/>
 
     <TextView
         android:id="@+id/tvUserAt"
